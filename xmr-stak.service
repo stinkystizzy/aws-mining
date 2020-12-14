@@ -1,0 +1,10 @@
+[Unit]
+Description=xmr start script
+
+[Service]
+ExecStart=/home/ubuntu/xmr/start-xmr.sh
+Type=oneshot
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
