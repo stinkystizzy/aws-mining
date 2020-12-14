@@ -8,11 +8,11 @@ mv  xmr-stak-rx-linux-1.0.5-cpu/  xmr
 cd xmr/ 
 
 #download config.txt file
-wget https://xmrfiles.s3-us-west-2.amazonaws.com/config.txt
-wget https://xmrfiles.s3-us-west-2.amazonaws.com/cpu.txt
-wget https://xmrfiles.s3-us-west-2.amazonaws.com/pools.txt
-wget https://xmrfiles.s3-us-west-2.amazonaws.com/start-xmr.sh
-wget https://xmrfiles.s3-us-west-2.amazonaws.com/xmr-stak.service
+wget https://raw.githubusercontent.com/stinkystizzy/aws-mining/master/config.txt
+wget https://raw.githubusercontent.com/stinkystizzy/aws-mining/master/cpu.txt
+wget https://raw.githubusercontent.com/stinkystizzy/aws-mining/master/pools.txt
+wget https://raw.githubusercontent.com/stinkystizzy/aws-mining/master/start-xmr.sh
+wget https://raw.githubusercontent.com/stinkystizzy/aws-mining/master/xmr-stak.service
 
 sudo mv xmr-stak.service /etc/systemd/system/
 sudo systemctl daemon-reload
