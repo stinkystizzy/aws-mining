@@ -1,8 +1,8 @@
 #!/bin/bash
 
-sudo apt update && sudo apt upgrade -y
-sudo apt install -y libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev
-cd /home/ubuntu/
+sudo yum update && sudo yum upgrade -y
+sudo yum install -y libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev
+cd /home/ec2-user/
 wget https://github.com/fireice-uk/xmr-stak/releases/download/1.0.5-rx/xmr-stak-rx-linux-1.0.5-cpu.tar.xz
 tar xf xmr-stak-rx-linux-1.0.5-cpu.tar.xz
 mv  xmr-stak-rx-linux-1.0.5-cpu/  xmr
