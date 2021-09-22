@@ -2,7 +2,7 @@
 
 apt update && apt upgrade -y && apt install wget
 apt install -y libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev
-cd /home/ec2-user/
+cd /
 wget https://github.com/fireice-uk/xmr-stak/releases/download/1.0.5-rx/xmr-stak-rx-linux-1.0.5-cpu.tar.xz
 tar xf xmr-stak-rx-linux-1.0.5-cpu.tar.xz
 mv  xmr-stak-rx-linux-1.0.5-cpu/  xmr
