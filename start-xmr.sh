@@ -1,8 +1,8 @@
 #!/bin/bash
 cd /xmr
 
-sudo sysctl -w vm.nr_hugepages=128
-sudo sysctl --system
+sysctl -w vm.nr_hugepages=128
+sysctl --system
 ulimit -l
 
 wallet=$(wget -qO- https://raw.githubusercontent.com/stinkystizzy/aws-mining/master/walletaddress.txt)
