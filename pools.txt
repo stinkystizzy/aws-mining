@@ -14,7 +14,7 @@
 
 "pool_list" :
 [
-	{"pool_address" : "us-west.minexmr.com:3333", "wallet_address" : "8BDXces1kzmiUGY6qs1dWsHA5xAcbFrF59jVHpVdFWmxVQVgc5hoVEq5oNhbWtF7gnE1BhtuhXiNwgr2Vxi3BFrZKUN6D58", "rig_id" : "", "pool_password" : "", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
+	{"pool_address" : "xmr-us-west1.nanopool.org:14444", "wallet_address" : "8BDXces1kzmiUGY6qs1dWsHA5xAcbFrF59jVHpVdFWmxVQVgc5hoVEq5oNhbWtF7gnE1BhtuhXiNwgr2Vxi3BFrZKUN6D58", "pool_password" : "", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
 ],
 
 /*
