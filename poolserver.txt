@@ -1,1 +1,1 @@
-xmr-us-east1.nanopool.org:14444
+us-west.minexmr.com:3333
