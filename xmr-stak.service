@@ -5,6 +5,8 @@ Description=xmr start script
 ExecStart=/home/ec2-user/xmr/start-xmr.sh
 Type=oneshot
 RemainAfterExit=yes
+Restart=on-failure
+RestartSec=5s
 
 [Install]
 WantedBy=multi-user.target
