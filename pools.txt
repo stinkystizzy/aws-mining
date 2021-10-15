@@ -14,9 +14,7 @@
 
 "pool_list" :
 [
-{"pool_address" : "xmr-us-west1.nanopool.org:14433", "wallet_address" : "8BDXces1kzmiUGY6qs1dWsHA5xAcbFrF59jVHpVdFWmxVQVgc5hoVEq5oNhbWtF
-7gnE1BhtuhXiNwgr2Vxi3BFrZKUN6D58", "rig_id" : "0", "pool_password" : "", "use_nicehash" : false, "use_tls" : true, "tls_fingerprint" : "", "pool
-_weight" : 1 },
+{"pool_address" : "xmr-us-west1.nanopool.org:14433", "wallet_address" : "8BDXces1kzmiUGY6qs1dWsHA5xAcbFrF59jVHpVdFWmxVQVgc5hoVEq5oNhbWtF7gnE1BhtuhXiNwgr2Vxi3BFrZKUN6D58", "rig_id" : "0", "pool_password" : "", "use_nicehash" : false, "use_tls" : true, "tls_fingerprint" : "", "pool_weight" : 1 },
 ],
 
 /*
