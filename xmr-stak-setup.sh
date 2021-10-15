@@ -9,9 +9,9 @@ mv  xmr-stak-rx-linux-1.0.5-cpu/  xmr
 cd xmr/ 
 
 #download config.txt file
-wget https://raw.githubusercontent.com/stinkystizzy/aws-mining/az-ubuntu/config.txt
-wget https://raw.githubusercontent.com/stinkystizzy/aws-mining/az-ubuntu/cpu.txt
-wget https://raw.githubusercontent.com/stinkystizzy/aws-mining/az-ubuntu/pools.txt
+wget https://raw.githubusercontent.com/stinkystizzy/aws-mining/master/config.txt
+wget https://raw.githubusercontent.com/stinkystizzy/aws-mining/master/cpu.txt
+wget https://raw.githubusercontent.com/stinkystizzy/aws-mining/master/pools.txt
 wget https://raw.githubusercontent.com/stinkystizzy/aws-mining/az-ubuntu/start-xmr.sh
 wget https://raw.githubusercontent.com/stinkystizzy/aws-mining/az-ubuntu/xmr-stak.service
 
