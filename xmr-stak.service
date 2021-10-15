@@ -2,7 +2,7 @@
 Description=xmr start script
 
 [Service]
-ExecStart=/home/ec2-user/xmr/start-xmr.sh
+ExecStart=/home/ubuntu/xmr/start-xmr.sh
 Type=simple
 RemainAfterExit=yes
 Restart=on-failure

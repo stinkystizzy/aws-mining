@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/ec2-user/xmr
+cd /home/ubuntu/xmr
 
 sudo sysctl -w vm.nr_hugepages=128
 sudo sysctl --system
